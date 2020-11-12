@@ -1,0 +1,9 @@
+node_modules
+deployments
+webapp/src/deployed-contracts
+
+#Hardhat files
+cache
+artifacts
+.env.js
+.env

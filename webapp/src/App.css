@@ -1,0 +1,113 @@
+.App-registrationForm.show,
+.App-metamaskBanner.show {
+    display: block;
+}
+
+.App-registrationForm.hide,
+.App-metamaskBanner.hide {
+    display: none;
+}
+
+.App-registrationForm {
+    margin-bottom: 5rem;
+}
+
+.App-userListWrap {
+    margin-bottom: 5rem;
+}
+
+.App {}
+
+.App-main {
+    display: flex;
+}
+
+.App-main > * {
+    flex: 1;
+}
+
+.App-list-item {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 0.25rem;
+}
+
+.App-list-item:hover {
+    cursor: pointer;
+}
+
+.App-list-item > * {padding: 0 0.25rem;}
+
+.App-user-name {
+}
+
+.App-user-account {
+    max-width: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.App-user-ratingTimestamp {
+    max-width: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.App-account {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid DarkCyan;
+    border-radius: 4px;
+    padding: 0.5rem 2rem;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.App-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.App-nav_left {
+    display: flex;
+    align-items: center;
+}
+
+.App-siteTitle a {
+    text-decoration: none;
+}
+
+.App-logo {
+    max-height: 36px;
+}
+
+.App-logoWrap {
+    padding-right: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {}
+
+.App-header {
+    padding: 1rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
